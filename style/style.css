@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* background-color: salmon; */
+    background-image: url("/jpg/sound.jpg");
+
+}
+
+.keys {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 30vh;
+    /* border: 2px green dashed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.keys div {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: dodgerblue 2px solid;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    flex-shrink: 1;
+    background-color: saddlebrown;
+
+
+    height: 50%;
+}
+
+.keys div kbd {
+    display: block;
+    font-size: 34px;
+    margin-top: 20%;
+    height: 60%;
+    text-align: center;
+    color: honeydew;
+
+}
+
+.keys div span.sound {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: grey;
+}
