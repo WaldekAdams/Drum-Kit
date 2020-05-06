@@ -34,6 +34,7 @@ body {
     flex-basis: 15%;
     flex-shrink: 1;
     background-color: rgb(139, 69, 19, 0.8);
+    transition: all .07s ease;
 
 
     height: 50%;
@@ -45,7 +46,7 @@ body {
     box-shadow: 0 0 5px rgb(227, 243, 4);
 }
 
-.keys div kbd {
+.keys div p {
     display: block;
     font-size: 48px;
     margin-top: 15%;
